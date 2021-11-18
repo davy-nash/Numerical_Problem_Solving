@@ -1,5 +1,9 @@
 // Simulating a Normal Distribution and plotting in C++
 
+#include <iostream>
+
+using namespace std;
+
 float normal_func (float mu, float sigma)
   {
     float result;
@@ -9,6 +13,8 @@ float normal_func (float mu, float sigma)
 
 int main ()
 {
+  float mu , sigma;
+
   float final;
 
   cout << "Enter a mu: " << endl;
